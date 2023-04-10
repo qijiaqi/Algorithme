@@ -17,20 +17,21 @@ int main () {
     }
 
     // DP
-    // vector<int> dp(size, 0);
-    // dp[0] = n[0];
-    // int sum = n[0];
-    // for (int i = 1; i < size; ++ i) { // begin at 1
-    //     dp[i] = max(dp[i - 1] + n[i], n[i]);
-    //     sum = max(sum, dp[i]);
-    // }
-    // GR
+    vector<int> dp(size, 0); // dp[i]: largest sum which end with n[i]
+    dp[0] = n[0];
     int sum = n[0];
     for (int i = 1; i < size; ++ i) { // begin at 1
-        if (n[i - 1] > 0) n[i] += n[i - 1];
-        sum = max(sum, n[i]);
+        dp[i] = max(dp[i - 1] + n[i], n[i]);
+        sum = max(sum, dp[i]);
+    }
+    // GR
+    int res = n[0];
+    for (int i = 1; i < size; ++ i) { // begin at 1
+        if (n[i - 1] > 0) n[i] += n[i - 1]; 
+        // add n[i - 1], if it's positive, we can always get a larger number
+        res = max(res, n[i]);
     }
 
-    cout << sum << endl;
+    cout << sum << " " << res << endl;
     return 0;
 }
