@@ -16,7 +16,7 @@ int main () {
         n.push_back(a);
     }
 
-    // suppose we can always reach the last element
+    // suppose that we can always reach the last element
     int cur = 0, next = 0, min = 0;
     for (int i = 0; i < size - 1; ++ i) { 
         next = max(next, n[i] + i); // calculate the new bound if we jump
