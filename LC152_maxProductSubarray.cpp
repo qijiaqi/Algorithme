@@ -17,17 +17,18 @@ int main () {
     }
 
     // DP
-    vector<int> mi(size, 0);
-    vector<int> mx(size, 0);
+    vector<int> mi(size, 0); // max product which ends with n[i]
+    vector<int> mx(size, 0); // min product which ends with n[i]
     int m = n[0];
     for (int i = 1; i < size; ++ i) {
         // discrete
         // mi[i] = min(mi[i - 1], mx[i - 1]*n[i]);
         // mx[i] = max(mx[i - 1], mi[i - 1]*n[i]);
         // continue
-        mi[i] = min(n[i], min(mi[i-1]*n[i], mx[i-1]*n[i]));
+        mi[i] = min(n[i], min(mi[i-1]*n[i], mx[i-1]*n[i])); 
         mx[i] = max(n[i], max(mi[i-1]*n[i], mx[i-1]*n[i]));
         m = max(m, mx[i]);
+        // depend on the positive and negative of n[i]
     }   
 
     cout << m << endl;
