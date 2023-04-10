@@ -16,7 +16,7 @@ int main () {
         n.push_back(a);
     }
 
-    // DP with O(n^2)
+    // DP with O(n^2) 
     int res = 1;
     vector<int> dp(size, 1); // dp[i]: longest length which ends with n[i]
     for (int i = 1; i < size; ++ i) {
