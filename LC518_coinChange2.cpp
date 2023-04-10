@@ -16,11 +16,11 @@ int main () {
         n.push_back(a);
     }
 
-    // DP
-    vector<int> dp(k + 1, 0); // times
+    // DP with O(n^2)
+    vector<int> dp(k + 1, 0); // dp[i]: number of combinations that we make up money i
     dp[0] = 1;
     for (int i = 0; i < size; ++ i) {
-        for (int j = 0; j <= k - n[i]; ++ j) { // Overflow
+        for (int j = 0; j <= k - n[i]; ++ j) { // overflow
             dp[j + n[i]] += dp[j];
         }
     }

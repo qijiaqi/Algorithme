@@ -16,11 +16,11 @@ int main () {
         n.push_back(a);
     }
 
-    // DP
-    vector<int> dp(k + 1, INT_MAX);
+    // DP with O(n^2)
+    vector<int> dp(k + 1, INT_MAX); // // dp[i]: min number of coins to change the money i
     dp[0] = 0;
     for (int i = 0; i < size; ++ i) {
-        for (int j = 0; j <= k - n[i]; ++ j) { // Overflow
+        for (int j = 0; j <= k - n[i]; ++ j) { // overflow
             if (dp[j] != INT_MAX) {
                 dp[j + n[i]] = min(dp[j + n[i]], dp[j] + 1);
             }

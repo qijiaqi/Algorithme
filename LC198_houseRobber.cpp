@@ -19,7 +19,8 @@ int main () {
     // DP
     if (size == 0) cout << 0 << endl;
     if (size == 1) cout << n[1] << endl;
-    vector<int> dp(size, 0);
+    vector<int> dp(size, 0); 
+    // max value of the subarray from index 0 to i, n[i]...n[0]
     dp[0] = n[0], dp[1] = max(dp[0], n[1]);
     for (int i = 2; i < size; ++ i) {
         dp[i] = max(dp[i - 1], dp[i - 2] + n[i]);
