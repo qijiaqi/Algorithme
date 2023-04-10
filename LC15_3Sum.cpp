@@ -18,7 +18,8 @@ int main () {
 
     vector<vector<int>> res;
     sort(n.begin(), n.end()); // sort
-    for (int i = 0; i < size; ++ i) {
+    for (int i = 0; i < size; ++ i) { 
+        // fix the first element and search the rest elements
         if (i > 0 && n[i] == n[i - 1]) continue; // skip repeat number
         int left = i + 1, right = size - 1;
         while (left < right) {
