@@ -52,4 +52,4 @@ int main () {
     //cout << max(up[size - 1], down[size - 1]) << endl;
     cout << max(u, d) << " " << mx << endl;
     return 0;
-}
+} 
