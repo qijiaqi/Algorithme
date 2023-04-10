@@ -18,9 +18,9 @@ int main () {
 
     int cover = 0;// largest index can be covered
     bool b = 0;
-    for (int i = 0; i <= cover; ++ i) { //dynamique
+    for (int i = 0; i <= cover; ++ i) { //dynamique loop
         cover = max(cover, n[i] + i);
-        if (cover >= size - 1) b = 1;
+        if (cover >= size - 1) b = 1; // break;
     }
 
     if (b) cout << "true" << endl;
