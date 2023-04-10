@@ -26,4 +26,4 @@ int main () {
 
     cout << dp[size - 1][0] << endl;
     return 0;
-}
+} 
