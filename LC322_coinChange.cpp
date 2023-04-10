@@ -30,4 +30,4 @@ int main () {
     if (dp[k] == INT_MAX) cout << -1 << endl;
     else cout << dp[k] << endl;
     return 0;
-}
+} 
