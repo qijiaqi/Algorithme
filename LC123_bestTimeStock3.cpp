@@ -17,7 +17,7 @@ int main () {
     }
 
     // DP
-    vector<vector<int>> dp(size, vector<int>(4, 0)); 
+    vector<vector<int>> dp(size, vector<int>(4, 0)); // dp[i][j]: max profit on day i in state j 
     dp[0][0] = -n[0]; // 0: stock in hand
     dp[0][2] = -n[0]; // 2: stock in hand at the second time
     for (int i = 1; i < size; ++ i) { 
