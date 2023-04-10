@@ -28,4 +28,4 @@ int main () {
 
     cout << max(dp[size - 1][1], max(dp[size - 1][2], dp[size - 1][3])) << endl;
     return 0;
-    }
+    } 
