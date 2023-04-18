@@ -1,27 +1,28 @@
 # Algorithme
 Questions algorithmiques sur Leetcode
 List of questions: 
-3.
-5. 
-7.
-15.
-31.
-45.
-53.
-55.
-64.
-115.
-121.
-122.
-123.
-152.
-188.
-198.
-204.
-300.
-309.
-322.
-376.
-416.
-518.
-714.
+3. Longest Substring Without Repeating Characters: SW with O(n^2)
+5. Longest Palindromic Substring: DP with O(n^2) in reverse order
+7. Reverse Integer: overflow & conversion of type
+15. 3Sum: search without duplicate number
+31. Next Permutation: regularity 
+45. Jump Game II: GR with dynamic loop
+53. Maximum Subarray: DP & GR with O(n)
+55. Jump Game: GR with dynamic loop
+64. Minimum Path Sum: DP with O(n^2)
+115. Distinct Subsequences: hard DP with O(n^2) & oveflow
+121. Best Time to Buy and Sell Stock: DP with O(n) in different states
+122. Best Time to Buy and Sell Stock II
+123. Best Time to Buy and Sell Stock III
+152. Maximum Product Subarray: 2 DP with O(n)
+172. Factorial Trailing Zeroes: Maths with O(logn)
+188. Best Time to Buy and Sell Stock IV: DP
+198. House Robber: DP with O(n)
+204. Count Primes: Maths with O(nloglogn)
+300. Longest Increasing Subsequence: DP with O(n^2)
+309. Best Time to Buy and Sell Stock with Cooldown: DP
+322. Coin Change: DP with O(n^2)
+376. Wiggle Subsequence: 2 DP & GR with O(n)
+416. Partition Equal Subset Sum: DP with O(n^2) in reverse order
+518. Coin Change II: DP with O(n^2)
+714. Maximum Length of Repeated Subarray: DP with O(n^2)
