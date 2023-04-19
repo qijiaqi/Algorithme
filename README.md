@@ -1,5 +1,5 @@
 # Algorithme
-Questions algorithmiques sur Leetcode
+Questions algorithmiques sur Leetcode \n
 List of questions: 
 2. Add Two Numbers: Binary Tree with maths
 3. Longest Substring Without Repeating Characters: SW with O(n^2)
