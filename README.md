@@ -8,9 +8,9 @@ List of questions:
 15. 3Sum: search without duplicate number
 31. Next Permutation: regularity 
 45. Jump Game II: GR with dynamic loop
+50. Power(x, n): Maths with quick power O(logn)
 53. Maximum Subarray: DP & GR with O(n)
 55. Jump Game: GR with dynamic loop
-50. Power(x, n): Maths with quick power O(logn)
 64. Minimum Path Sum: DP with O(n^2)
 66. Plus One: Maths with O(n)
 67. Add Binary: Maths with XOR O(n)
