@@ -12,7 +12,7 @@ List of questions:
 53. Maximum Subarray: DP & GR with O(n)
 55. Jump Game: GR with dynamic loop
 64. Minimum Path Sum: DP with O(n^2)
-66. Plus One: Maths with O(n)
+66. Plus One: Maths with O(n) 
 67. Add Binary: Maths with XOR O(n)
 115. Distinct Subsequences: hard DP with O(n^2) & oveflow
 121. Best Time to Buy and Sell Stock: DP with O(n) in different states
