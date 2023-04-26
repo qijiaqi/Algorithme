@@ -30,4 +30,5 @@ List of questions:
 376. Wiggle Subsequence: 2 DP & GR with O(n)
 416. Partition Equal Subset Sum: DP with O(n^2) in reverse order
 518. Coin Change II: DP with O(n^2)
+581. Shortest Unsorted Continuous Subarray: sort with O(n)
 714. Maximum Length of Repeated Subarray: DP with O(n^2)
