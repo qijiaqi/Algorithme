@@ -27,7 +27,7 @@ List of questions:
 309. Best Time to Buy and Sell Stock with Cooldown: DP
 319. Bulb Switcher: maths with square number O(n)
 322. Coin Change: DP with O(n^2)
-365. Water and Jug Problem: DFS
+365. Water and Jug Problem: DFS & Bézout
 376. Wiggle Subsequence: 2 DP & GR with O(n)
 416. Partition Equal Subset Sum: DP with O(n^2) in reverse order
 518. Coin Change II: DP with O(n^2)
