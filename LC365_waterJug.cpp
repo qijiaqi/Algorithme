@@ -31,9 +31,13 @@ int main () {
     int c1, c2, t;
     cin >> c1 >> c2 >> t;
 
+    cout << "TEST 8 % 12 = : " << 8 % 12 << endl;
+
     bool res = false;
     // Bézout
     // Every opration can change c1 or c2 value of the sum of two jugs
+    // Because c1: 3/5, c2: 2/7 equals to c1: 0/5, c2: 2/7
+    // If we fill jug c1, c1: 5/5, c2: 2/7 
     // c1*x + c2*y = t has solution if t%gcd(c1, c2)
     if (t > c1 + c2) cout << res << endl;
     else cout << (t % gcd(c1, c2) == 0) << endl;
