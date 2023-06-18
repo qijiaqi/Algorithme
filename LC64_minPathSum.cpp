@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 #include <bits/stdc++.h>
-#include<algorithm>
+#include <algorithm>
 
 using namespace std;
 
