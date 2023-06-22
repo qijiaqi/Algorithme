@@ -8,7 +8,7 @@ using namespace std;
 
 // h[pos][rest] : number of path if we use fuel less than rest to get city finish from pos city
 vector<vector<int>> h;
-
+// g & f are fixed, just p & rest change
 int dfs(const vector<int>& g, int p, int f, int rest) {
     // if already computed
     if (h[p][rest] != -1) return h[p][rest];
