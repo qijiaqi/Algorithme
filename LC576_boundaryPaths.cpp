@@ -5,7 +5,7 @@
 #include <algorithm>
 
 using namespace std;
-// 576. Out of Boundary Paths
+
 int main () {
     int m, n, mv, sm, sn;
     cin >> m >> n >> mv >> sm >> sn;
