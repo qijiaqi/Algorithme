@@ -15,6 +15,7 @@ List of questions:
 66. Plus One: Maths with O(n) 
 67. Add Binary: Maths with XOR O(n)
 115. Distinct Subsequences: hard DP with O(n^2) & oveflow
+120. Triangle: DP with O(n^2)
 121. Best Time to Buy and Sell Stock: DP with O(n) in different states
 122. Best Time to Buy and Sell Stock II
 123. Best Time to Buy and Sell Stock III
@@ -31,5 +32,9 @@ List of questions:
 376. Wiggle Subsequence: 2 DP & GR with O(n)
 416. Partition Equal Subset Sum: DP with O(n^2) in reverse order
 518. Coin Change II: DP with O(n^2)
+576. Out of Boundary Paths: Dp with O(n^3)
 581. Shortest Unsorted Continuous Subarray: sort with O(n)
 714. Maximum Length of Repeated Subarray: DP with O(n^2)
+931. Minimum Falling Path Sum: DP with O(n^2)
+1289. Minimum Falling Path Sum II: hard DP with O(n^2)
+1575. Count All Possible Routes: MS (DP & DFS) & hard DP with O(n^3)
