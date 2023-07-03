@@ -32,9 +32,10 @@ List of questions:
 376. Wiggle Subsequence: 2 DP & GR with O(n)
 416. Partition Equal Subset Sum: DP with O(n^2) in reverse order
 518. Coin Change II: DP with O(n^2)
-576. Out of Boundary Paths: Dp with O(n^3)
+576. Out of Boundary Paths: DP with O(n^3)
 581. Shortest Unsorted Continuous Subarray: sort with O(n)
 714. Maximum Length of Repeated Subarray: DP with O(n^2)
 931. Minimum Falling Path Sum: DP with O(n^2)
 1289. Minimum Falling Path Sum II: hard DP with O(n^2)
+1301. Number of Paths with Max Score: hard DP with O(n^2)
 1575. Count All Possible Routes: MS (DP & DFS) & hard DP with O(n^3)
