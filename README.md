@@ -1,11 +1,12 @@
 # Algorithme
 Questions algorithmiques sur Leetcode
 List of questions: 
-2. Add Two Numbers: Binary Tree with maths
+2. Add Two Numbers: Linked List with maths
 3. Longest Substring Without Repeating Characters: SW with O(n^2)
 5. Longest Palindromic Substring: DP with O(n^2) in reverse order
 7. Reverse Integer: overflow & conversion of type
 15. 3Sum: search without duplicate number
+19. Remove Nth Node From End of List: Linked List with dummy head
 31. Next Permutation: regularity 
 45. Jump Game II: GR with dynamic loop
 50. Power(x, n): Maths with quick power O(logn)
