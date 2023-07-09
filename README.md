@@ -34,6 +34,7 @@ List of questions:
 518. Coin Change II: DP with O(n^2)
 576. Out of Boundary Paths: DP with O(n^3)
 581. Shortest Unsorted Continuous Subarray: sort with O(n)
+704. Binary Search: BS
 714. Maximum Length of Repeated Subarray: DP with O(n^2)
 931. Minimum Falling Path Sum: DP with O(n^2)
 1289. Minimum Falling Path Sum II: hard DP with O(n^2)
