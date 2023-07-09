@@ -10,7 +10,7 @@ class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         // Dummy Head
-        ListNode* dh = new ListNode(head->val, head);
+        ListNode* dh = new ListNode(0, head);
         ListNode* fast = dh;
         ListNode* slow = dh;
         if (!head -> next) return nullptr;
