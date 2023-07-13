@@ -24,6 +24,7 @@ public:
     }
     // Reverse & Double Pointer
     ListNode* reverse(ListNode* head) {
+        // pre = new head
         ListNode* pre = nullptr;
         ListNode* cur = head;
         ListNode* tmp;
