@@ -21,12 +21,14 @@ List of questions:
 121. Best Time to Buy and Sell Stock: DP with O(n) in different states
 122. Best Time to Buy and Sell Stock II
 123. Best Time to Buy and Sell Stock III
+141. Linked List Cycle: LinkedList with DoublePointer
 152. Maximum Product Subarray: 2 DP with O(n)
 172. Factorial Trailing Zeroes: Maths with O(logn)
 188. Best Time to Buy and Sell Stock IV: DP
 198. House Robber: DP with O(n)
 204. Count Primes: Maths with Eratosthenes O(nloglogn)
 206. Reverse Linked List: LinkedList with DummyHead & Stack & DoublePointer
+234. Palindrome Linked List: LinkedList with vector & DoublePointer
 300. Longest Increasing Subsequence: DP with O(n^2)
 309. Best Time to Buy and Sell Stock with Cooldown: DP
 319. Bulb Switcher: maths with square number O(n)
