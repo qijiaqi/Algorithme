@@ -1,12 +1,12 @@
 # Algorithme
 Questions algorithmiques sur Leetcode
 List of questions: 
-2. Add Two Numbers: Linked List with maths
+2. Add Two Numbers: LinkedList with maths
 3. Longest Substring Without Repeating Characters: SW with O(n^2)
 5. Longest Palindromic Substring: DP with O(n^2) in reverse order
 7. Reverse Integer: overflow & conversion of type
 15. 3Sum: search without duplicate number
-19. Remove Nth Node From End of List: Linked List with DummyHead
+19. Remove Nth Node From End of List: LinkedList with DummyHead
 21. Merge Two Sorted Lists: LinkedList Iteration & Recursion
 31. Next Permutation: regularity 
 45. Jump Game II: GR with dynamic loop
@@ -26,7 +26,7 @@ List of questions:
 188. Best Time to Buy and Sell Stock IV: DP
 198. House Robber: DP with O(n)
 204. Count Primes: Maths with Eratosthenes O(nloglogn)
-206. Reverse Linked List: Linked List with DummyHead & Stack & DoublePointer
+206. Reverse Linked List: LinkedList with DummyHead & Stack & DoublePointer
 300. Longest Increasing Subsequence: DP with O(n^2)
 309. Best Time to Buy and Sell Stock with Cooldown: DP
 319. Bulb Switcher: maths with square number O(n)
