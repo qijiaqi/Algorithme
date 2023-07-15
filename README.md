@@ -16,6 +16,12 @@ List of questions:
 64. Minimum Path Sum: DP with O(n^2)
 66. Plus One: Maths with O(n) 
 67. Add Binary: Maths with XOR O(n)
+98. Validate Binary Search Tree: BST & RC
+101. Symmetric Tree: BT & RC
+102. Binary Tree Level Order Traversal: BT & queue 
+104. Maximum Depth of Binary Tree: BT & RC & queue
+108. Convert Sorted Array to Binary Search Tree: BST & RC
+111. Minimum Depth of Binary Tree: BT & RC & queue
 115. Distinct Subsequences: hard DP with O(n^2) & oveflow
 120. Triangle: DP with O(n^2)
 121. Best Time to Buy and Sell Stock: DP with O(n) in different states
