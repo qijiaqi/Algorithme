@@ -7,6 +7,7 @@ List of questions:
 7. Reverse Integer: overflow & conversion of type
 15. 3Sum: search without duplicate number
 19. Remove Nth Node From End of List: LinkedList with DummyHead
+20. Valid Parentheses: stack
 21. Merge Two Sorted Lists: LinkedList Iteration & Recursion
 31. Next Permutation: regularity 
 45. Jump Game II: GR with dynamic loop
