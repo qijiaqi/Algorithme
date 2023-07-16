@@ -23,5 +23,5 @@ int main () {
     }
 
     cout << st.empty() << endl;
-    reutrn 0;
+    return 0;
 }
