@@ -1,5 +1,4 @@
 # Algorithme
-
 Questions algorithmiques sur Leetcode
 List of questions: 
 2. Add Two Numbers: LinkedList with maths
@@ -31,8 +30,10 @@ List of questions:
 123. Best Time to Buy and Sell Stock III
 141. Linked List Cycle: LinkedList with DoublePointer
 152. Maximum Product Subarray: 2 DP with O(n)
+155. Min Stack: Design
 172. Factorial Trailing Zeroes: Maths with O(logn)
 188. Best Time to Buy and Sell Stock IV: DP
+190. Reverse Bits: bit
 198. House Robber: DP with O(n)
 204. Count Primes: Maths with Eratosthenes O(nloglogn)
 206. Reverse Linked List: LinkedList with DummyHead & Stack & DoublePointer
@@ -43,6 +44,7 @@ List of questions:
 322. Coin Change: DP with O(n^2)
 365. Water and Jug Problem: DFS & Bézout
 376. Wiggle Subsequence: 2 DP & GR with O(n)
+384. Shuffle an Array: Design
 416. Partition Equal Subset Sum: DP with O(n^2) in reverse order
 518. Coin Change II: DP with O(n^2)
 576. Out of Boundary Paths: DP with O(n^3)
@@ -53,3 +55,4 @@ List of questions:
 1289. Minimum Falling Path Sum II: hard DP with O(n^2)
 1301. Number of Paths with Max Score: hard DP with O(n^2)
 1575. Count All Possible Routes: MS (DP & DFS) & hard DP with O(n^3)
+2745. Construct the Longest New String : MS & DFS & Math wuth O(1)
