@@ -1,7 +1,7 @@
-## Algorithme
-# Questions algorithmiques sur Leetcode
-# List of questions: 
-2. Add Two Numbers: LinkedList with maths\
+# Algorithme
+## Questions algorithmiques sur Leetcode
+## List of questions: 
+2. Add Two Numbers: LinkedList with maths
 3. Longest Substring Without Repeating Characters: SW with O(n^2)\
 5. Longest Palindromic Substring: DP with O(n^2) in reverse order\
 7. Reverse Integer: overflow & conversion of type\
